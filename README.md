@@ -1,7 +1,7 @@
 # 4051-multiplexer
 python version of a 4051 multiplexer chip
 
-I'm working on a lunetta style synthesizer, basically simple audio circuits based off common logic chips.
+I'm working on a lunetta style synthesizer, basically simple audio circuits based off common CMOS chips.
 This script emulates the behavior of a 4051 multiplexer chip - http://www.ti.com/product/CD4051B
 
 the output is based off of whatever combination is fed into the three inputs. this script counts up from 0 to 8,
