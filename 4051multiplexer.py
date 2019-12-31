@@ -30,9 +30,7 @@ lastb = 0
 lastc = 0
 
 while(1):
-    '''
-    step thru 1-8 / 0-7:
-    '''
+    #step thru 1-8 / 0-7:
     print(lasta,lastb,lastc)
     print(inputs(lasta,lastb,lastc))
     
@@ -50,10 +48,10 @@ while(1):
     
     elif lastc == 0:
         lastc = 1
-    '''
-    random:
-    randomizing all three inputs to a multiplexer seems to get interesting patterns, that's doable with 3 inverters from a 40106 chip
-    randomsteps = [random.randrange(0,2),random.randrange(0,2),random.randrange(0,2)]
-    print(randomsteps[0],randomsteps[1],randomsteps[2])
-    print(inputs(randomsteps[0],randomsteps[1],randomsteps[2]))
-    '''
+'''
+random mode:
+randomizing all three inputs to a multiplexer seems to get interesting patterns, that's doable with 3 inverters from a 40106 chip
+randomsteps = [random.randrange(0,2),random.randrange(0,2),random.randrange(0,2)]
+print(randomsteps[0],randomsteps[1],randomsteps[2])
+print(inputs(randomsteps[0],randomsteps[1],randomsteps[2]))
+'''
