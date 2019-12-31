@@ -3,6 +3,7 @@ python version of a 4051 multiplexer chip
 
 I'm working on a lunetta style synthesizer, basically simple audio circuits based off common logic chips.
 This script emulates the behavior of a 4051 multiplexer chip - http://www.ti.com/product/CD4051B
+
 the output is based off of whatever combination is fed into the three inputs. this script counts up from 0 to 8,
 but you can get unusual patterns by setting any of the inputs to 0 or 1, or randomly chosing 0 or 1.
 
